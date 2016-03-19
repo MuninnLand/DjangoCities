@@ -6,14 +6,14 @@
 # If you want Google's container you would reference google/python
 # Read more about containers on our dev center
 # http://devcenter.wercker.com/docs/containers/index.html
-box: python:2.7
+#box: python:2.7
 # You can also use services such as databases. Read more on our dev center:
 # http://devcenter.wercker.com/docs/services/index.html
-services:
-   - id: postgres
-        env:
-        POSTGRES_USER: muninnland
-        POSTGRES_PASSWORD: ourlittlesecret
+#services:
+#   - id: postgres
+#        env:
+#        POSTGRES_USER: muninnland
+#        POSTGRES_PASSWORD: ourlittlesecret
 # This is the build pipeline. Pipelines are the core of wercker
 # Read more about pipelines on our dev center
 # http://devcenter.wercker.com/docs/pipelines/index.html
